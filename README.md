@@ -58,7 +58,7 @@ Normalized latitude and longitude information were used as features. While this 
 
 ![Aggregrated Demand](./Images/aggregrated_demand.png?raw=true "Aggregrated Demand")
 
-As seen above, trends in demand are correlated with the aggregated demand in each location. Thus, the normalized values of aggregated demand - which is constant between time periods for each location - were also used as features. This allows the model to further cluster locations with similar trends tegoether
+As seen above, trends in demand are correlated with the aggregated demand in each location. Thus, the normalized values of aggregated demand - which is constant between time periods for each location - were also used as features. This allows the model to further cluster locations with similar trends together.
 
 Further processing of geospatial information through 1D / 2D gaussian filters on lagged demand reduced the model’s performance on the validation dataset, hence they are not included.
 
